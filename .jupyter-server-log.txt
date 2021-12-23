@@ -268,3 +268,22 @@ TermSocket.open: Opened 1
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+[I 18:15:34.893 NotebookApp] Creating new notebook in 
+[I 18:15:36.283 NotebookApp] Kernel started: 8d10042c-37d3-403a-a142-75fcc905c8d0, name: python3
+[I 18:15:38.885 NotebookApp] Creating new directory in 
+[W 18:15:43.884 NotebookApp] delete /Untitled Folder
+[I 18:15:51.385 NotebookApp] Kernel shutdown: 8d10042c-37d3-403a-a142-75fcc905c8d0
+[W 18:15:54.486 NotebookApp] delete /Untitled.ipynb
+[I 18:16:23.984 NotebookApp] Uploading file to /MFVAR_orig.ipynb
+[W 18:16:38.894 NotebookApp] Notebook MFVAR_orig.ipynb is not trusted
+[I 18:16:41.187 NotebookApp] Kernel started: 43444504-6c4d-4232-8cea-aacbd1325d9c, name: python3
+[I 18:17:14.894 NotebookApp] Kernel restarted: 43444504-6c4d-4232-8cea-aacbd1325d9c
+[I 18:17:15.082 NotebookApp] Starting buffering for 43444504-6c4d-4232-8cea-aacbd1325d9c:f87e331b-3c68-4de7-9f3c-acd05bb29cb0
+[I 18:17:15.289 NotebookApp] Restoring connection for 43444504-6c4d-4232-8cea-aacbd1325d9c:f87e331b-3c68-4de7-9f3c-acd05bb29cb0
+[W 18:17:19.891 NotebookApp] Nudge: attempt 10 on kernel 43444504-6c4d-4232-8cea-aacbd1325d9c
+[W 18:17:24.990 NotebookApp] Nudge: attempt 20 on kernel 43444504-6c4d-4232-8cea-aacbd1325d9c
+[I 18:18:41.084 NotebookApp] Saving file at /MFVAR_orig.ipynb
+[I 18:20:42.794 NotebookApp] Saving file at /MFVAR_orig.ipynb
+[I 18:22:32.184 NotebookApp] Saving file at /requirements.txt
+[I 18:23:10.084 NotebookApp] Saving file at /Replicate.ipynb
+[I 18:24:32.495 NotebookApp] Saving file at /requirements.txt
