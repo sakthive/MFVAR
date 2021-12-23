@@ -1,7 +1,6 @@
 pandas
 numpy
 iPython
-math
 scipy
 time
 warnings
