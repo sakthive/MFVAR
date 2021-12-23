@@ -148,3 +148,77 @@ TermSocket.open: Opened 1
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+[W 2021-12-23 11:09:57.699 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.699 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.699 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.699 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.699 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.699 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.699 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.699 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-12-23 11:09:57.699 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-12-23 11:09:57.699 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.700 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-23 11:09:57.700 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-12-23 11:09:57.712 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-12-23 11:09:57.712 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 11:09:57.730 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 11:09:57.733 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 11:09:57.734 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 11:09:57.734 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 11:09:57.734 NotebookApp] http://jupyter-sakthive-2dmfvar-2dweta1dyy:8888/user/sakthive-mfvar-weta1dyy/?token=...
+[I 11:09:57.734 NotebookApp]  or http://127.0.0.1:8888/user/sakthive-mfvar-weta1dyy/?token=...
+[I 11:09:57.734 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 11:09:57.743 NotebookApp] No web browser found: could not locate runnable browser.
+[I 11:09:57.746 NotebookApp] 302 GET /user/sakthive-mfvar-weta1dyy/ (10.0.9.32) 1.140000ms
+[I 11:09:58.068 NotebookApp] 302 GET /user/sakthive-mfvar-weta1dyy/?token=wlcv-jpKTT-kW-k-N1U7Og (37.203.166.99) 0.850000ms
+[I 11:09:58.176 NotebookApp] 301 GET /user/sakthive-mfvar-weta1dyy/lab/?token=wlcv-jpKTT-kW-k-N1U7Og (37.203.166.99) 2.080000ms
+[I 11:10:00.670 NotebookApp] 301 GET /user/sakthive-mfvar-weta1dyy/static/favicons/favicon.ico (37.203.166.99) 0.740000ms
+[I 2021-12-23 11:10:04.682 LabApp] Build is up to date
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 11:10:05.195 NotebookApp] 404 GET /user/sakthive-mfvar-weta1dyy/terminals/websocket/1 (37.203.166.99) 74.100000ms referer=None
+[W 11:10:05.707 NotebookApp] Notebook Replicate.ipynb is not trusted
+[I 11:10:06.211 NotebookApp] Kernel started: 2512bfc2-c051-482d-92c3-4c5d9e6c997e, name: python3
+[I 11:10:06.211 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 11:10:06.211 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 11:10:07.449 NotebookApp] Starting buffering for 2512bfc2-c051-482d-92c3-4c5d9e6c997e:bcf57e37-58a5-4a53-844f-82997e68da9c
+[I 11:10:07.763 NotebookApp] 301 GET /user/sakthive-mfvar-weta1dyy/static/favicons/favicon-busy-1.ico (37.203.166.99) 0.850000ms
+[I 11:11:26.942 NotebookApp] Kernel restarted: 2512bfc2-c051-482d-92c3-4c5d9e6c997e
+[I 11:12:06.047 NotebookApp] Saving file at /Replicate.ipynb
+[I 11:22:10.714 NotebookApp] Saving file at /Replicate.ipynb
+[I 11:24:11.023 NotebookApp] Saving file at /Replicate.ipynb
+[I 11:26:11.386 NotebookApp] Saving file at /Replicate.ipynb
+[I 11:30:12.361 NotebookApp] Saving file at /Replicate.ipynb
+[I 11:31:33.213 NotebookApp] Saving file at /Replicate.ipynb
+[I 11:33:35.327 NotebookApp] Saving file at /Replicate.ipynb
+[W 11:42:06.213 NotebookApp] Culling 'idle' kernel 'python3' (2512bfc2-c051-482d-92c3-4c5d9e6c997e) with 2 connections due to 619 seconds of inactivity.
+[I 11:42:06.213 NotebookApp] Kernel shutdown: 2512bfc2-c051-482d-92c3-4c5d9e6c997e
+[I 11:43:25.982 NotebookApp] Kernel started: 87892349-14e0-4eb4-8f81-996d386b6516, name: python3
+[I 11:43:43.028 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:03:12.521 NotebookApp] Kernel interrupted: 87892349-14e0-4eb4-8f81-996d386b6516
+[I 12:03:50.438 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:03:59.639 NotebookApp] Kernel restarted: 87892349-14e0-4eb4-8f81-996d386b6516
+[I 12:03:59.747 NotebookApp] Starting buffering for 87892349-14e0-4eb4-8f81-996d386b6516:00934536-38a0-400a-9727-5fdfe74c5cab
+[I 12:03:59.982 NotebookApp] Restoring connection for 87892349-14e0-4eb4-8f81-996d386b6516:00934536-38a0-400a-9727-5fdfe74c5cab
+[I 12:05:51.568 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:06:16.563 NotebookApp] Kernel restarted: 87892349-14e0-4eb4-8f81-996d386b6516
+[I 12:06:16.672 NotebookApp] Starting buffering for 87892349-14e0-4eb4-8f81-996d386b6516:00934536-38a0-400a-9727-5fdfe74c5cab
+[I 12:06:16.883 NotebookApp] Restoring connection for 87892349-14e0-4eb4-8f81-996d386b6516:00934536-38a0-400a-9727-5fdfe74c5cab
+[I 12:07:51.898 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:09:52.694 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:15:55.290 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:17:55.658 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:19:56.426 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:27:59.649 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:29:13.093 NotebookApp] Kernel restarted: 87892349-14e0-4eb4-8f81-996d386b6516
+[I 12:29:13.201 NotebookApp] Starting buffering for 87892349-14e0-4eb4-8f81-996d386b6516:00934536-38a0-400a-9727-5fdfe74c5cab
+[I 12:29:13.431 NotebookApp] Restoring connection for 87892349-14e0-4eb4-8f81-996d386b6516:00934536-38a0-400a-9727-5fdfe74c5cab
+[I 12:30:00.016 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:30:02.515 NotebookApp] Saving file at /Replicate.ipynb
+[I 12:30:07.791 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
